@@ -173,7 +173,7 @@ function moveDodgerRight() {
    */
    function step() {
      const left = positionToInteger(DODGER.style.left)
-     if (left < 400) {
+     if (left < 360) {
         DODGER.style.left = `${left + 4}px`
         window.requestAnimationFrame(step)
      }
