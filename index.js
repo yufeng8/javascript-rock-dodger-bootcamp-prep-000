@@ -92,7 +92,7 @@ function createRock(x) {
      * the GAME, we want to move it again.
      */
     else if (top < 400) {
-      moveRock()
+      requestAnimationFrame(moveRock);
     }
     else {
       GAME.removeChild(rock)
