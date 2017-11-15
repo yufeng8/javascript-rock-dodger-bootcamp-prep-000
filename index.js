@@ -77,7 +77,7 @@ function createRock(x) {
    */
   function moveRock() {
     rock.style.left = `${top += 2}px`;
-    
+
     // implement me!
     // (use the comments below to guide you!)
     /**
@@ -94,7 +94,7 @@ function createRock(x) {
     else if (positionToInteger(rock.style.top) < 400) {
       moveRock()
     }
-    else if (positionToInteger(rock.style.top) = 400) {
+    else if (positionToInteger(rock.style.top) === 400) {
       GAME.removeChild(rock)
     }
     /**
