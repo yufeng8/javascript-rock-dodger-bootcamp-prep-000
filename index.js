@@ -91,7 +91,7 @@ function createRock(x) {
      * Otherwise, if the rock hasn't reached the bottom of
      * the GAME, we want to move it again.
      */
-    else if (positionToInteger(rock.style.top) < 400) {
+    else if (top < 400) {
       moveRock()
     }
     else {
